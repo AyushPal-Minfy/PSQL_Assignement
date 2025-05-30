@@ -1,4 +1,4 @@
-** PQL ASSIGNMENT **
+** PSQL ASSIGNMENT **
 ```js
 PS C:\Users\Minfy> psql -U postgres
 Password for user postgres:
