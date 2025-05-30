@@ -1,20 +1,14 @@
 ** PSQL ASSIGNMENT **
 ```js
-PS C:\Users\Minfy> psql -U postgres
-Password for user postgres:
+PS C:\Users\Minfy> psql -U ayush -d university_db;
+Password for user ayush:
 psql (17.5)
+
 WARNING: Console code page (850) differs from Windows code page (1252)
          8-bit characters might not work correctly. See psql reference
          page "Notes for Windows users" for details.
 Type "help" for help.
 
-PS C:\Users\Minfy> psql -U ayush -d university_db;
-Password for user ayush:
-psql (17.5)
-WARNING: Console code page (850) differs from Windows code page (1252)
-         8-bit characters might not work correctly. See psql reference
-         page "Notes for Windows users" for details.
-Type "help" for help.
 
 university_db=> \l
                                                               List of databases
@@ -37,7 +31,8 @@ university_db(>     email VARCHAR(100),
 university_db(>     date_of_birth DATE
 university_db(> );
 CREATE TABLE
-university_db=>
+
+
 university_db=> \d
          List of relations
  Schema |   Name   | Type  | Owner
